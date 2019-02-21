@@ -1,0 +1,51 @@
+page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#topview text {
+  display: block;
+}
+
+.bIsPaste {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#affix {
+  flex: none;
+  display: flex;
+  background: #fff;
+}
+
+#affix_hide {
+  min-height: 80rpx;
+}
+
+#affix .item {
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+#affix .item.active {
+  color: #fc0;
+}
+
+#affix .item.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background: #fc0;
+}
+
+text {
+  display: block;
+}

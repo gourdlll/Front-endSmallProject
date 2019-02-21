@@ -1,0 +1,37 @@
+<!--导航条-->
+<scroll-view scroll-y="true" bindscrolltolower="bindDownLoad">
+  <view id='topview'>
+    <text>功能需求:</text>
+    <text>1、选项卡切换（跳转时无滑动效果）</text>
+    <text>2、选项卡滚到顶时吸附顶部并固定</text>
+  </view>
+
+  <!--选项卡-->
+  <view id="affix" class='{{bIsPaste?"bIsPaste":""}}'>
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+  </view>
+
+  <view id='affix_hide' wx:if="{{bIsPaste}}"></view>
+  <!--占位，固定吸附的组件，高度有多高，这个占位view的min-height则设多高-->
+  <!---->
+
+  <!--首页-->
+  <view hidden="{{currentTab!==0}}">
+    <text>注意：当所有view被scroll-view组件包住的时候，scroll-view使用的事件 可能 会和page的onPageScroll事件冲突，所以可以改成采用scroll-view组件本身的scroll事件去获取滚动过的距离，再判断滚动过的距离是否大于距离顶部的距离，进行相应的操作</text>
+    <text>注意：当所有view被scroll-view组件包住的时候，scroll-view使用的事件 可能 会和page的onPageScroll事件冲突，所以可以改成采用scroll-view组件本身的scroll事件</text>
+    <text>注意：当所有view被scroll-view组件包住的时候，scroll-view使用的事件 可能 会和page的onPageScroll事件冲突，所以可以改成采用scroll-view组件本身的scroll事件去获取滚动过的距离，再判断滚动过的距离是否大于距离顶部的距离，进行相应的操作</text>
+    <text>注意：当所有view被scroll-view组件包住的时候，scroll-view使用的事件 可能 会和page的onPageScroll事件冲突，所以可以改成采用scroll-view组件本身的scroll事件去获取滚动过的距离，再判断滚动过的距离是否大于距离顶部的距离，进行相应的操作</text>
+    <text>注意：当所有view被scroll-view组件包住的时候，scroll-view使用的事件 可能 会和page的onPageScroll事件冲突，所以可以改成采用scroll-view组件本身的scroll事件去获取滚动过的距离，再判断滚动过的距离是否大于距离顶部的距离，进行相应的操作</text>
+    <text>注意：当所有view被scroll-view组件包住的时候，scroll-view使用的事件 可能 会和page的onPageScroll事件冲突，所以可以改成采用scroll-view组件本身的scroll事件去获取滚动过的距离，再判断滚动过的距离是否大于距离顶部的距离，进行相应的操作</text>
+  </view>
+
+  <!--搜索-->
+  <view hidden="{{currentTab!==1}}">
+    tab_02
+  </view>
+
+  <!--我-->
+  <view hidden="{{currentTab!==2}}">
+    tab_03
+  </view>
+</scroll-view>

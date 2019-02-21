@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<!--
+预览图片，小程序有自己的API
+wx.previewImage(Object object)
+在新页面中全屏预览图片。预览的过程中用户可以进行保存图片、发送给朋友等操作。
+
+需要注意的是：urls: [] // 需要预览的图片http链接列表  也就是说可以预览存在网络上的图片，不能预览本地图片
+-->
+<view class="container">
+  <text>单张图片预览</text>
+  <view>
+    <image bindtap='preSingleImage' data-src='http://www.qikemao.cn/uploads/allimg/180119/1-1P11915531T43.jpg' src="http://www.qikemao.cn/uploads/allimg/180119/1-1P11915531T43.jpg"></image>
+  </view>
+
+  <text>多张图片预览</text>
+  <text>多张图片点击预览放大以后可以侧滑看下一张</text>
+  <view style='display:flex;'>
+    <view wx:for="{{imgalist}}" wx:for-item="cosPrefix" class="previewimg">
+      <image src="{{cosPrefix}}" data-src="{{cosPrefix}}" bindtap="preManyImage" style='width:200rpx;height:200rpx;'></image>
+    </view>
+  </view>
+</view>
