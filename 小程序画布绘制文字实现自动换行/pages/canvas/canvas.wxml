@@ -1,0 +1,2 @@
+<!--pages/canvas/canvas.wxml-->
+<canvas canvas-id="canvasII" style="border: 1px solid;"/>
