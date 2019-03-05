@@ -1,2 +1,2 @@
 <!--pages/canvas/canvas.wxml-->
-<canvas style="width: 100%; height: 440px; background-color: #F2F0F2" canvas-id="canvasExe"></canvas>
+<canvas style="width: 100%; height: 440px;" canvas-id="canvasExe"></canvas>

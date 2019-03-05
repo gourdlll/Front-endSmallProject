@@ -31,6 +31,9 @@ Page({
     let width = screenWidth
     let height = 280
     ctx.save()
+    //画布的背景颜色需要在这里设置，但在开发者工具里，clip方法会失效，真机调试却是可以的。
+    ctx.setFillStyle("#eee")
+    ctx.fillRect(0,0,width,440)
     ctx.drawImage('../image/bgcard.jpg', 0, 0, width, height)
     ctx.drawImage('../image/code.jpg', width - 140, 290, 125, 125)
 
