@@ -1,4 +1,4 @@
-**`图形库`**
+**图形库**
 直接使用canvas不太方便，所以一般都会借用图形库
 例如：Paper.js,KineticJS,Ease1JS,SpriteJS,PixiJS,Fabric.js,Obelisk.js等等
 
