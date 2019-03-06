@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/mature/mature",
+    "pages/picker/picker",
+    "pages/showActionSheet/showActionSheet"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
