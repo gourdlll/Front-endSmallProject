@@ -1,2 +1,2 @@
 <!--pages/mature/mature.wxml-->
-<text>pages/mature/mature.wxml</text>
+<button bindtap='showActionSheet'>showActionSheet菜单</button>
