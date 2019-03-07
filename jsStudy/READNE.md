@@ -5,3 +5,7 @@ JavaScript学习笔记（JavaScript学习指南 Ethan Brown）
 
 **样板代码**
 使用某个工具类库前的初始化设置
+
+**字面量、变量、常量和数据类型**
+声明变量关键字：var、let
+声明常量关键字：const
