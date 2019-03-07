@@ -1,2 +1,5 @@
 <!--pages/mature/mature.wxml-->
 <button bindtap='showActionSheet'>showActionSheet菜单</button>
+
+<my-picker range="{{val}}" bindfinish="finishHandler" pickerShow="{{pickerShow}}" is-shadow="{{true}}">
+</my-picker>

@@ -2,7 +2,8 @@
   "pages": [
     "pages/mature/mature",
     "pages/picker/picker",
-    "pages/showActionSheet/showActionSheet"
+    "pages/showActionSheet/showActionSheet",
+    "pages/my-picker/my-picker"
   ],
   "window": {
     "backgroundTextStyle": "light",
