@@ -1,4 +1,7 @@
-<!--pages/picker/picker.wxml-->
+<!-- 
+  小程序picker组件
+  无法与showActionSheet小程序API结合
+ -->
 <view class="section">
   <view class="section__title">普通选择器</view>
   <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">

@@ -1,2 +1,2 @@
-<!--pages/index/index.wxml-->
+<!-- showActionSheet -->
 <input disabled="{{addLevelDis}}" type="text" bindfocus="addLevel" value="{{addLevelData}}" style="border:1px solid black;margin:20px;" placeholder="请输入用户级别" />
