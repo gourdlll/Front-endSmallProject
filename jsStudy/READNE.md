@@ -9,3 +9,5 @@ JavaScript学习笔记（JavaScript学习指南 Ethan Brown）
 **字面量、变量、常量和数据类型**
 声明变量关键字：var、let
 声明常量关键字：const
+
+**表达式和运算符**
