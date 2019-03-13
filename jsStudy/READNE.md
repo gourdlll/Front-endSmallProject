@@ -11,3 +11,6 @@ JavaScript学习笔记（JavaScript学习指南 Ethan Brown）
 声明常量关键字：const
 
 **表达式和运算符**
+
+**ES6**
+数据结构：maps和sets
