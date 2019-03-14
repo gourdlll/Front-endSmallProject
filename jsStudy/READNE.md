@@ -14,3 +14,6 @@ JavaScript学习笔记（JavaScript学习指南 Ethan Brown）
 
 **ES6**
 数据结构：maps和sets
+迭代器和生成器
+
+**Error对象**
