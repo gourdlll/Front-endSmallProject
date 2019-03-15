@@ -17,3 +17,4 @@ JavaScript学习笔记（JavaScript学习指南 Ethan Brown）
 迭代器和生成器
 
 **Error对象**
+    
