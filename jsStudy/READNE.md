@@ -19,4 +19,4 @@ JavaScript学习笔记（JavaScript学习指南 Ethan Brown）
 **Error对象**
     3.18
     3.19
-   
+   3.20
