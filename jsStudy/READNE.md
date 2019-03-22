@@ -21,3 +21,4 @@ JavaScript学习笔记（JavaScript学习指南 Ethan Brown）
     3.19
    3.20
    3.21
+   3.22
