@@ -27,3 +27,4 @@ JavaScript学习笔记（JavaScript学习指南 Ethan Brown）
    3.27
    
    3.28
+   3.29
