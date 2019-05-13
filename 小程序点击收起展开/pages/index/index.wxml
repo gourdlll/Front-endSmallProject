@@ -1,0 +1,32 @@
+<!--pages/index/index.wxml-->
+<view class='container'>
+  <view>
+    <view class='common'>
+      <text>图集</text>
+      <image src='{{ show ? "../image/down.png" : "../image/up.png"}}' bindtap="showContent"></image>
+    </view>
+    <view class='{{ show ? "show" : "hide"}}'>
+      诗歌是一种有节奏和韵律、表达凝练、结构多样、用于反映生活和表达情感的文学体裁。 诗歌被认为是文学最初的起源，其最初发生于尚未有文字的人类社会，以口语的形式流传，并与音乐、舞蹈结合。最早的诗歌可以追溯到史前时代非洲的狩猎诗
+    </view>
+  </view>
+
+  <view>
+    <view class='common'>
+      <text>图集</text>
+      <image src='{{ show1 ? "../image/down.png" : "../image/up.png"}}' bindtap="showContent1"></image>
+    </view>
+    <view class='{{ show1 ? "show" : "hide"}}'>
+      诗歌是一种有节奏和韵律、表达凝练、结构多样、用于反映生活和表达情感的文学体裁。 诗歌被认为是文学最初的起源，其最初发生于尚未有文字的人类社会，以口语的形式流传，并与音乐、舞蹈结合。最早的诗歌可以追溯到史前时代非洲的狩猎诗
+    </view>
+  </view>
+
+  <view>
+    <view class='common'>
+      <text>图集</text>
+      <image src='{{ show2 ? "../image/down.png" : "../image/up.png"}}' bindtap="showContent2"></image>
+    </view>
+    <view class='{{ show2 ? "show" : "hide"}}'>
+      诗歌是一种有节奏和韵律、表达凝练、结构多样、用于反映生活和表达情感的文学体裁。 诗歌被认为是文学最初的起源，其最初发生于尚未有文字的人类社会，以口语的形式流传，并与音乐、舞蹈结合。最早的诗歌可以追溯到史前时代非洲的狩猎诗
+    </view>
+  </view>
+</view>

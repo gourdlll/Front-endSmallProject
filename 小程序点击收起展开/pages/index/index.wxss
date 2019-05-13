@@ -1,0 +1,29 @@
+/* pages/index/index.wxss */
+
+.container .common {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25rpx;
+}
+
+.container .common text {
+  font-size: 32rpx;
+  color: #828282;
+  letter-spacing: 4rpx;
+}
+
+.container .common image {
+  display: block;
+  width: 38rpx;
+  height: 28rpx;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

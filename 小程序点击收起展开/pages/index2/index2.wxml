@@ -1,0 +1,18 @@
+<view class="page">
+
+  <!--分类 -->
+  <view class="li" data-index="0" bindtap='changeToggle'>
+    <view class="left">类别1</view>
+    <view class="right">3
+
+    </view>
+  </view>
+  <view hidden="{{!selectedFlag[0]}}">
+    <block wx:for="{{list01}}" wx:for-item="item" wx:for-index="index">
+      <view class="li bg-gray">
+        <view>展开1</view>
+      </view>
+    </block>
+  </view>
+
+</view>
